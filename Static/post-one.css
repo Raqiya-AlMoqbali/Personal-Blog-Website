@@ -1,0 +1,120 @@
+@import "header.css";
+@import "footer.css";
+@import url ('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body {
+  background-color: #E5E0F0;
+}
+
+
+ .article {
+  text-align: justify; 
+ }
+ 
+ 
+.main-cont{
+  padding: 5%;
+  line-height: 1.5;
+  margin: 22px;
+  border :2px solid #D2CAE6;
+  box-shadow: 20px 10px 20px #404040;
+  font-family: 'Shrikhand', serif;
+}
+
+
+.container{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 21px;
+}
+
+
+.side{
+  text-align: left;
+  margin: 22px;
+  list-style:none;
+  border :2px solid #D2CAE6;
+  box-shadow: 20px 10px 20px #404040;
+  font-family: 'Shrikhand', serif;
+}
+
+
+.bio{
+  padding: 5%;
+  margin: 2%;
+  border-radius: 8%;
+  font-family: 'Shrikhand', serif;
+  font-size: 13px;
+}
+
+
+.bio img {
+  width: 50%;
+  height:50%;
+  border-radius: 50%;
+  padding: 2%;
+}
+
+
+.another-article{
+  padding: 5%;
+  margin: 2%;
+  text-align: left;
+  border-radius: 8%;
+}
+
+
+.another-article li{
+  padding: 8px;
+  list-style-type:none;
+  text-align: left;
+}
+
+
+h1 {
+  font-family: 'Shrikhand', serif;
+  text-align: center;
+}
+
+
+.quote::before {
+  content: open-quote;
+}
+
+.quote::after {
+  content: close-quote;
+}
+
+@media screen and (max-width:600px){
+.container {
+    grid-template-columns:  1fr;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width:900px){
+  .container {
+    grid-template-columns:1fr;
+  }
+  .side{
+    font-size: 0.8em;
+  }
+  .main-cont{
+    font-size: 1.2em;
+  }
+}
+
+
+@media screen (min-width: 901px) {
+  .container{
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 31px;
+  }
+  .side{
+     font-size: 1.4em;
+     padding:21px;
+  }
+  .main-cont {
+    font-size:1.3em;
+    padding:21px;
+ }
+}
