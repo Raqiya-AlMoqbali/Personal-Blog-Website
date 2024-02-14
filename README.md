@@ -4,7 +4,6 @@ Welcome to the Personal Blog Website project. This project contains a customizab
 
 ## Features
 
-- **Dynamic Content:** The blog website template supports dynamic content creation, allowing you to easily publish new blog posts, articles, or updates.
 - **Responsive Design:** Built using responsive web design principles, the website template ensures optimal viewing and interaction experience across a wide range of devices and screen sizes.
 - **Customizable:** You can easily customize the website template to reflect your personal branding, preferences, and style by modifying colors, fonts, layout, and content.
 - **Interactive Elements:** Incorporates interactive elements such as navigation menus, social media links, and comment sections to engage with your audience and enhance user experience.
