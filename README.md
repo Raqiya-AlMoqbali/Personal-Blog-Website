@@ -7,7 +7,6 @@ Welcome to the Personal Blog Website project. This project contains a customizab
 - **Responsive Design:** Built using responsive web design principles, the website template ensures optimal viewing and interaction experience across a wide range of devices and screen sizes.
 - **Customizable:** You can easily customize the website template to reflect your personal branding, preferences, and style by modifying colors, fonts, layout, and content.
 - **Interactive Elements:** Incorporates interactive elements such as navigation menus, social media links, and comment sections to engage with your audience and enhance user experience.
-- **Easy to Deploy:** With simple HTML, CSS, and possibly JavaScript files, deploying the blog website is straightforward and can be done on any web hosting platform.
 - **Navigation:**
 Intuitive navigation is implemented for easy access to different parts of the website.
 
