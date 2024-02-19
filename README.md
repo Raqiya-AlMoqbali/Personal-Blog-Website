@@ -27,7 +27,7 @@ To get started with your personal blog website using this template, follow these
 
 ## Technologies Used
 
-The blog website template may utilize various technologies, including but not limited to:
+The blog website template utilize this technologies:
 - HTML
 - CSS
 
